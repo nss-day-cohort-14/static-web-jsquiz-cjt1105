@@ -1,9 +1,10 @@
 var character;
 var height;
 var btn = document.getElementById('btn');
-var tree = {};
+
 // function to get input
 function getInput(){
+	var tree = {};
 	tree.character = document.getElementById('character').value;
 	tree.height = document.getElementById('height').value;
 	growTree(tree);
